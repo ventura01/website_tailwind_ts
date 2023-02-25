@@ -11,11 +11,11 @@ const ProductList = () => {
             our products are solutions for yor needs
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 ">
+        <div className="grid grid-cols-1 md:gap-16 md:grid-cols-3 ">
           {products.map((product) => (
             <div
               key={product.id}
-              className="border border-gray-300 rounded-3xl my-4 gap-2 w-full mx-auto overflow-hidden"
+              className="border border-gray-300 rounded-3xl my-4 w-full mx-auto overflow-hidden"
             >
               <Image
                 src={product.url}
@@ -33,7 +33,9 @@ const ProductList = () => {
                 <del>U${product.price}</del>
               </div>
               <div className="flex justify-center my-6 mt-4">
-                <button className="rounded-full hover:bg-orange-500 hover:text-white capitalize shadow-md shadow-orange-300 bg-white py-2 outline outline-orange-500 text-orange-500 font-bold px-6">shop now</button>
+                <button className="rounded-full hover:bg-orange-500 hover:text-white capitalize shadow-md shadow-orange-300 bg-white py-2 outline outline-orange-500 text-orange-500 font-bold px-6">
+                  shop now
+                </button>
               </div>
             </div>
           ))}
