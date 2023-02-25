@@ -1,5 +1,6 @@
 import CTASection from "@/components/CTASection";
 import FeatureSection from "@/components/FeatureSection";
+import ProductList from "@/components/ProductList";
 import Testimonials from "@/components/Testimonials";
 import { Inter } from "@next/font/google";
 
@@ -13,6 +14,7 @@ export default function Home() {
     <main>
       <section id="main">
         <FeatureSection />
+        <ProductList />
         <Testimonials />
         <CTASection />
       </section>
