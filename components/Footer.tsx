@@ -78,7 +78,7 @@ const Footer = () => {
                 placeholder="Update"
               />
               <button className="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
-                Go
+                Subscribe
               </button>
             </div>
             <div className="hidden text-white mt-5 md:block">

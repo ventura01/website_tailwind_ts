@@ -4,7 +4,7 @@ import React from "react";
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
+      <div className="max-w-6xl px-5 mx-auto mt-32 text-center mb-32">
         <h2 className="text-4xl font-bold text-center">
           What is different about Manage?
         </h2>
@@ -52,11 +52,11 @@ const Testimonials = () => {
             </p>
           </div>
         </div>
-        <div className="my-16">
+        {/* <div className="my-16">
           <button className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full shadow-md shadow-red-200 transition baseline hover:bg-brightRedLight ">
             Compra ya!
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

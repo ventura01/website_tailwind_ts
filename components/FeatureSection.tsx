@@ -9,9 +9,13 @@ const FeatureSection = () => {
             What is the sifference about Manage?
           </h2>
           <p className="max-w-sm text-center text-darkGrayishBlue md:text-left">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
-            rem dignissimos dolorum obcaecati architecto quibusdam omnis facere
-            nisi.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa,
+            recusandae? Rerum atque tempore, et tempora aut laudantium ex illum
+            reiciendis nobis! Quam hic exercitationem quod voluptatum dolores
+            cumque eos ipsum, accusamus iure maiores unde consequatur quibusdam
+            necessitatibus amet nam aliquid placeat atque? Nihil nulla
+            consequatur optio in delectus non incidunt? Magnam nostrum quasi
+            vel.
           </p>
         </div>
         <div className="flex flex-col space-y-8 md:w-1/2">
